@@ -1,0 +1,23 @@
+{
+  "name": "js-scope",
+  "version": "1.0.0",
+  "description": "This information is my notes from this book:\r https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md",
+  "main": "0_playgrounds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-england/js-scope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-england/js-scope/issues"
+  },
+  "homepage": "https://github.com/m-england/js-scope#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
