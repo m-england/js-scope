@@ -3,9 +3,10 @@ This information is my notes from this book:
 https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md
 
 JavaScript compiler
-	- compiled vs interpolated
-	- Phase 1 Parsing/Compiling
-	- Phase 2 execution
+
+	- compiled vs interpolated	
+	- Phase 1 Parsing/Compiling	
+	- Phase 2 execution	
 	- The JS Engine contains the Compiler and Scope Manager
 	- how variables are created
 	- let var and const
@@ -20,6 +21,7 @@ JavaScript compiler
 
 	
 Lexical Scope
+
 	- scope "bubbles"
 	- determined by the placement of functions, blocks, and variables
 	- When you ask for a variable, it goes up the scope tree until it finds it
@@ -29,6 +31,7 @@ Lexical Scope
 	- Shadowing 
 
 Hoisting
+
 	- Function hoisting
 		- A function declaration is hoisted and initialized to its function value.
 	- Variable hoisting
@@ -38,21 +41,25 @@ Hoisting
 	
 
 Functions
+
 	- When a function (declaration or expression) is defined, a new scope is created.
 	- Function declarations vs function expressions and their scope
 	- Anonymous function expressions have no name identifier, so there is no identifier to effect either scope.
 	
 Arrow Functions
+
 	- Arrow functions are lexically anonymous, meaning they have no directly related identifier that references the function.
 	- Arrow functions have lexical this behavior, arrow functions treat this like any lexical variable.
 	
 this
+
 	- this refers to the object containing the called location (kind of)
 	- it depends on how it is called,
 	- in classes, it refers to the class because functions are defined as properties
 	- if you write function declarations, you'll lose the this, unless you use bind
 
 Closures
+
 	- Most common closures are callbacks - either in promise form or otherwise from api calls and event handlers
 	- Closure is when a function uses variable(s) from outer scope(s) even while running in a scope where those variable(s) wouldn't be accessible.
 		- closures accessing global variables don't create closures
