@@ -1,4 +1,6 @@
 # js-scope'
+This information is my notes from this book:
+https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md
 
 JavaScript compiler
 	- compiled vs interpolated
