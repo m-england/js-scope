@@ -1,4 +1,4 @@
-forStarfleet();
+//forStarfleet();
 
 var reportForDuty = function forStarfleet() {
     //let forStarfleet = 14;
@@ -7,5 +7,5 @@ var reportForDuty = function forStarfleet() {
 
 reportForDuty();
 
-//function forStarfleet() {console.log('this was different')};
-//console.log(forStarfleet);
+function forStarfleet() {console.log('this was different')};
+console.log(forStarfleet());

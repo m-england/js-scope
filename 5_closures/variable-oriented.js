@@ -1,4 +1,4 @@
-var ships = [
+let ships = [
     { callSign: 'NCC-1701', name: 'USS Enterprise' },
     { callSign: 'NX-74205', name: 'USS Defiant' },
     { callSign: 'NCC-74656', name: 'USS Voyager' },
@@ -6,6 +6,7 @@ var ships = [
 ];
 
 function lookupShip(callLetters) {
+
     return function greetShip(greeting){
         let ship = ships.find(s => s.callSign == callLetters);
         return `${ greeting }, ${ ship.name }!`;
@@ -22,3 +23,5 @@ console.log(approachingShips[0].name);
 console.log(approachingShips[0]("Hail"));
 
 console.log(approachingShips[1]("Please Acknowledge"));
+
+console.log(ships);
